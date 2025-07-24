@@ -7,7 +7,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
 
 # Load cartoon head image (with alpha channel)
-funny_head = cv2.imread("funny_head.png", cv2.IMREAD_UNCHANGED)
+funny_head = cv2.imread("Image2.png", cv2.IMREAD_UNCHANGED)
 
 cap = cv2.VideoCapture(0)
 

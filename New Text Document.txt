@@ -1,0 +1,102 @@
+git clone https://github.com/digitalworlds/UPose.git
+
+
+
+
+🚀 Final Solution: UPose
+The UPose project integrates MediaPipe pose (full body + hands) in Python and streams precise joint rotations to Unity for lifelike avatar animation—including fingers:
+
+Calculates accurate joint rotations (not just positions)
+
+Supports a standard human IK skeleton (ready­player.me, Mixamo, etc.)
+
+Includes demo scenes: Exercise, Soccer, Archer, Dance, CatchBall, and more
+arXiv
++15
+GitHub
++15
+GitHub
++15
+
+🔧 How to Get & Use UPose
+1. Install & Clone
+bash
+Copy
+Edit
+git clone https://github.com/digitalworlds/UPose.git
+cd UPose
+Requires Unity (2021 LTS+) and Python 3.9+ 
+GitHub
++4
+GitHub
++4
+GitHub
++4
+
+2. Setup Python Tracking
+bash
+Copy
+Edit
+cd UPose/MotionCapture/mediapipe
+conda create -n mediapipe python=3.9
+conda activate mediapipe
+pip install opencv-python mediapipe upose
+python run_mediapipe.py
+This launches webcam tracking and streams pose & finger data to Unity 
+GitHub
+
+3. Open Unity Project & Run
+Launch Unity and open the UPose/UPose project folder.
+
+Choose a demo scene (e.g., DanceScene.unity).
+
+Click Play—your avatar will mirror your full-body movement in real time with smooth finger articulation 
+YouTube
++15
+GitHub
++15
+GitHub
++15
+GitHub
+
+4. Customize Avatar
+Use a Humanoid rigged avatar (Mixamo/ReadyPlayer.me).
+
+Make sure bone names match the standard IK skeleton.
+
+Replace demo avatar or tweak bone mappings via Unity inspector.
+
+✅ Why UPose is the Best Fit
+Full-body + fingers: Covers limbs, hands, and fingers with real-time rotations.
+
+Rotations over positions: Cleaner, more stable animation on avatar joints.
+
+Ready-made demos: Try different scenes right away—no coding needed.
+
+Open-source & MIT-licensed: Customize or expand freely 
+GitHub
+
+🛠️ Optional Enhancements
+Add smoothing filters (Kalman, EMA) inside Python or Unity for jitter reduction.
+
+Integrate IK solvers (Unity’s built-in or Final IK) for enhanced realism.
+
+Build the Unity project as a standalone app or add overlay graphics.
+
+📋 Summary Table
+Component	What to Do
+Python tracking	Clone UPose, set up conda env, install dependencies, run run_mediapipe.py
+Unity	Open project, select scene, press Play to mirror your movements
+Avatar swap	Replace demo avatar with your own, ensure humanoid rig
+Enhancement	Add smoothing, IK, filters as needed
+
+✅ Next Steps?
+Would you like me to help you:
+
+Configure your own custom avatar into the demo?
+
+Add smoothing or IK setup?
+
+Export and package a standalone Unity build for Windows or Mac?
+
+Let me know—I can walk you through any of these!

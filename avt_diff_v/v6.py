@@ -6,9 +6,9 @@ mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
 
 # Load cartoon part images
-funny_head = cv2.imread("funny_head.png", cv2.IMREAD_UNCHANGED)
-funny_arm = cv2.imread("funny_arm.png", cv2.IMREAD_UNCHANGED)
-funny_leg = cv2.imread("funny_leg.png", cv2.IMREAD_UNCHANGED)
+funny_head = cv2.imread("Image2.png", cv2.IMREAD_UNCHANGED)
+funny_arm = cv2.imread("Image3.png", cv2.IMREAD_UNCHANGED)
+funny_leg = cv2.imread("Image5.png", cv2.IMREAD_UNCHANGED)
 
 cap = cv2.VideoCapture(0)
 
