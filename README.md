@@ -1,3 +1,8 @@
+https://github.com/xerifg/Real-time-3DposeTracking-Unity3D-UnityChan
+
+
+
+
 Creating a touch-like interactive system using a projector and a camera is completely possible! This setup is often called a “pseudo touch screen” or “interactive projection system”. Since you don’t know anything, I’ll explain everything step-by-step with code, hardware, and software setup.
 
 🧠 What We Are Building
